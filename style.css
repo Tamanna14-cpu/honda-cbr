@@ -19,3 +19,18 @@ body{
 .header-details{
     padding: 50px 30px;
 }
+
+
+/* featured */
+.gray-img{
+    filter: grayscale(100%);
+}
+
+/* card */
+.card-img{
+    width: 210px;
+    clip-path: circle();
+}
+.colored-star{
+    color: orange;
+}
