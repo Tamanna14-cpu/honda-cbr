@@ -6,10 +6,16 @@ body{
 .container{
     padding-bottom: 50px;
 }
+section{
+    margin-bottom: 40px;
+}
+
+.colored-icon, .orange-text{
+    color: orange;
+}
 
 
 /* header */
-
 .header-bg{
     background: #264653;
 }
@@ -19,11 +25,34 @@ body{
 .header-details{
     padding: 50px 30px;
 }
+.sign-in-btn{
+    padding: 3px 15px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+.purchase-btn{
+    padding: 6px 18px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px rgba(221, 88, 40, 0.856);
+}
+.header-text{
+    font-size: 13px;
+}
 
 
 /* featured */
 .gray-img{
     filter: grayscale(100%);
+}
+.feature-hr{
+    width: 90px;
+    color: red;
+    margin: auto;
 }
 
 /* card */
@@ -31,8 +60,22 @@ body{
     width: 210px;
     clip-path: circle();
 }
-.colored-star{
-    color: orange;
+
+/* what's new */
+.buy-btn{
+    border: none;
+    border-radius: 5px;
+    background: lightgray;
+    font-weight: bold;
+}
+
+/* order details */
+.order-hover:hover{
+    background: gray;
+    border-radius: 10px;
+}
+.text-hover:hover{
+    color: whitesmoke;
 }
 
 /* footer */
